@@ -4,7 +4,8 @@
 
 apt-get install -y emacs git virtualbox python-dev pip virtualenv ipython \
     vlc guake awesome awesome-extra terminator chromium gitk flashplugin-nonfree \
-    volti colordiff pidgin pidgin-otr pidgin-skype pidgin-twitter
+    volti colordiff pidgin pidgin-otr pidgin-skype pidgin-twitter \
+    xscreensaver xscreensaver-data
 
 # do as user
 
