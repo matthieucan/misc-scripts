@@ -7,7 +7,7 @@ apt-get install -y emacs git virtualbox python-dev pip virtualenv ipython \
     vlc guake awesome awesome-extra terminator chromium gitk flashplugin-nonfree \
     volti colordiff pidgin pidgin-otr pidgin-skype pidgin-twitter \
     xscreensaver xscreensaver-data coccinelle docker.io python-mode \
-    texlive latex-make sloccount ssmtp
+    texlive latex-make sloccount ssmtp signing-party
 
 # do as user
 
