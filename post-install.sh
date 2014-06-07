@@ -2,12 +2,16 @@
 
 # run as root
 
-apt-get install -y emacs git virtualbox python-dev pip virtualenv ipython \
-    vlc guake awesome awesome-extra terminator chromium gitk
-    vlc guake awesome awesome-extra terminator chromium gitk flashplugin-nonfree \
-    volti colordiff pidgin pidgin-otr pidgin-skype pidgin-twitter \
-    xscreensaver xscreensaver-data coccinelle docker.io python-mode \
-    texlive latex-make sloccount ssmtp signing-party lua-mode
+apt-get install -y \
+    xserver-xorg xinit console-data keyboard-configuration alsa-utils \
+    awesome awesome-extra xscreensaver xscreensaver-data volti \
+    python-dev python-pip python-virtualenv ipython python-mode \
+    emacs lua-mode git virtualbox gitk \
+    pidgin pidgin-otr pidgin-skype pidgin-twitter \
+    evince transmission vlc terminator chromium flashplugin-nonfree \
+    colordiff coccinelle docker.io \
+    texlive latex-make \
+    sloccount ssmtp signing-party
 
 # do as user
 
