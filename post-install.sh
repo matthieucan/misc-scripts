@@ -4,7 +4,7 @@
 
 apt-get install -y \
     xserver-xorg xinit console-data keyboard-configuration alsa-utils \
-    sudo thunar lxappearance volti scrot \
+    sudo thunar lxappearance volti scrot network-manager wicd-gtk \
     awesome awesome-extra xscreensaver xscreensaver-data \
     xscreensaver-data-extra xscreensaver-gl-extra \
     python-dev python-pip python-virtualenv ipython python-mode \
