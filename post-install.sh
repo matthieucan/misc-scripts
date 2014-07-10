@@ -13,7 +13,8 @@ apt-get install -y \
     evince transmission vlc terminator chromium flashplugin-nonfree \
     colordiff coccinelle docker.io \
     texlive latex-make \
-    sloccount ssmtp signing-party
+    sloccount ssmtp signing-party \
+    golang-go gocode-auto-complete-el golang-mode
 
 # do as user
 
