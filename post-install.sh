@@ -14,7 +14,8 @@ apt-get install -y \
     colordiff coccinelle docker.io \
     texlive latex-make \
     sloccount ssmtp signing-party \
-    golang-go gocode-auto-complete-el golang-mode
+    golang-go gocode-auto-complete-el golang-mode \
+    eog
 
 # do as user
 
