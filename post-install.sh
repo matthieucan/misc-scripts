@@ -15,7 +15,7 @@ apt-get install -y \
     texlive latex-make \
     sloccount ssmtp signing-party \
     golang-go gocode-auto-complete-el golang-mode \
-    eog
+    eog file-roller
 
 # do as user
 
