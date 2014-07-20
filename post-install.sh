@@ -24,7 +24,12 @@ chmod -w /etc/sudoers
 
 echo "source ~matthieu/.bashrc" >> ~root/.bashrc
 
+
 # do as user
 
 # git config --global user.name foo
 # git config --global user.email bar
+# cd ~/.caff && for i in $(ls $HOME/.gnupg); do echo $i && ln -s $HOME/.gnupg/$i; done
+
+# in dotfiles/awesome
+# sudo ln -s run_once /usr/bin/run_once
