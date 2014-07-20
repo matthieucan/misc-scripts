@@ -22,6 +22,8 @@ chmod +w /etc/sudoers
 echo "%sudo   ALL=(ALL:ALL) NOPASSWD:ALL" >> /etc/sudoers
 chmod -w /etc/sudoers
 
+echo "source ~matthieu/.bashrc" >> ~root/.bashrc
+
 # do as user
 
 # git config --global user.name foo
