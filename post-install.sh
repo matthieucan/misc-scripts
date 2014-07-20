@@ -17,6 +17,11 @@ apt-get install -y \
     golang-go gocode-auto-complete-el golang-mode \
     eog file-roller
 
+adduser matthieu sudo
+chmod +w /etc/sudoers
+echo "%sudo   ALL=(ALL:ALL) NOPASSWD:ALL" >> /etc/sudoers
+chmod -w /etc/sudoers
+
 # do as user
 
 # git config --global user.name foo
