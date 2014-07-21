@@ -10,7 +10,7 @@ apt-get install -y \
     python-dev python-pip python-virtualenv ipython python-mode \
     emacs lua-mode git gitk \
     pidgin pidgin-otr pidgin-skype pidgin-twitter \
-    evince transmission vlc terminator chromium flashplugin-nonfree \
+    evince transmission vlc terminator chromium iceweasel flashplugin-nonfree \
     colordiff coccinelle docker.io \
     texlive latex-make \
     sloccount  signing-party \
