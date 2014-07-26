@@ -8,12 +8,13 @@ apt-get install -y \
     awesome awesome-extra xscreensaver xscreensaver-data \
     xscreensaver-data-extra xscreensaver-gl-extra \
     python-dev python-pip python-virtualenv ipython python-mode \
+    python-nose \
     emacs lua-mode git gitk \
     pidgin pidgin-otr pidgin-skype pidgin-twitter \
     evince transmission vlc terminator chromium iceweasel flashplugin-nonfree \
     colordiff coccinelle docker.io \
     texlive latex-make \
-    sloccount  signing-party devscripts \
+    sloccount  signing-party devscripts python-stdeb \
     golang-go gocode-auto-complete-el golang-mode \
     eog file-roller
 
