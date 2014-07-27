@@ -14,7 +14,7 @@ apt-get install -y \
     evince transmission vlc terminator chromium iceweasel flashplugin-nonfree \
     colordiff coccinelle docker.io \
     texlive latex-make \
-    sloccount  signing-party devscripts python-stdeb \
+    sloccount  signing-party devscripts python-stdeb dh-make \
     golang-go gocode-auto-complete-el golang-mode \
     eog file-roller
 
