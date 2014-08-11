@@ -8,15 +8,15 @@ apt-get install -y \
     awesome awesome-extra xscreensaver xscreensaver-data \
     xscreensaver-data-extra xscreensaver-gl-extra \
     python-dev python-pip python-virtualenv ipython python-mode \
-    python-nose \
+    python-nose python3-venv \
     emacs lua-mode git gitk \
     pidgin pidgin-otr pidgin-skype pidgin-twitter \
     evince transmission vlc terminator chromium iceweasel flashplugin-nonfree \
     colordiff coccinelle docker.io \
     texlive latex-make \
-    sloccount  signing-party devscripts python-stdeb dh-make \
+    sloccount  signing-party devscripts python-stdeb dh-make dpkg-dev-el debian-el \
     golang-go gocode-auto-complete-el golang-mode \
-    eog file-roller
+    eog file-roller reaver wifite aircrack-ng
 
 adduser matthieu sudo
 chmod +w /etc/sudoers
