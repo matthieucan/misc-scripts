@@ -16,7 +16,8 @@ apt-get install -y \
     texlive latex-make \
     sloccount  signing-party devscripts python-stdeb dh-make dpkg-dev-el debian-el \
     golang-go gocode-auto-complete-el golang-mode \
-    eog file-roller reaver wifite aircrack-ng
+    eog file-roller reaver wifite aircrack-ng \
+    mpd ncmpcpp weather-util
 
 adduser matthieu sudo
 chmod +w /etc/sudoers
