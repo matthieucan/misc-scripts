@@ -17,7 +17,7 @@ apt-get install -y \
     sloccount  signing-party devscripts python-stdeb dh-make dpkg-dev-el debian-el \
     golang-go gocode-auto-complete-el golang-mode \
     eog file-roller reaver wifite aircrack-ng \
-    mpd ncmpcpp weather-util htop
+    mpd ncmpcpp weather-util htop blueman
 
 adduser matthieu sudo
 chmod +w /etc/sudoers
