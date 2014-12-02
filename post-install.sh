@@ -37,3 +37,6 @@ echo "source ~matthieu/.bashrc" >> ~root/.bashrc
 
 # in dotfiles/awesome
 # sudo ln -s run_once /usr/bin/run_once
+
+# disable beep sound:
+echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf
