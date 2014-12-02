@@ -1,4 +1,4 @@
- #!/bin/bash
+#!/bin/bash
 
 # run as root
 
@@ -32,6 +32,7 @@ echo "source ~matthieu/.bashrc" >> ~root/.bashrc
 
 # git config --global user.name foo
 # git config --global user.email bar
+# cat .gitconfig >> ~/.gitconfig
 # cd ~/.caff && for i in $(ls $HOME/.gnupg); do echo $i && ln -s $HOME/.gnupg/$i; done
 
 # in dotfiles/awesome
