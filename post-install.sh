@@ -18,7 +18,8 @@ apt-get install -y \
     golang-go gocode-auto-complete-el golang-mode \
     eog file-roller reaver wifite aircrack-ng \
     mpd ncmpcpp weather-util htop blueman \
-    cvs subversion mercurial automake autoconf emacs24-el
+    cvs subversion mercurial automake autoconf emacs24-el \
+    mutt-patched
 
 adduser matthieu sudo
 chmod +w /etc/sudoers
