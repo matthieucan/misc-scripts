@@ -1,4 +1,4 @@
 #!/bin/bash
 
 apt-get install maven eclipse \
-        system-config-printer
+        system-config-printer xsane
