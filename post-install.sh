@@ -41,3 +41,4 @@ echo "source ~matthieu/.bashrc" >> ~root/.bashrc
 
 # disable beep sound:
 echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf
+echo "blacklist snd_pcsp" > /etc/modprobe.d/nobeep.conf
