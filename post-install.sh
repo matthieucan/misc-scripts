@@ -19,7 +19,7 @@ apt-get install -y \
     eog file-roller reaver wifite aircrack-ng \
     mpd ncmpcpp weather-util htop blueman \
     cvs subversion mercurial automake autoconf emacs24-el \
-    mutt-patched sl
+    mutt-patched sl ntp ntpdate
 
 adduser matthieu sudo
 chmod +w /etc/sudoers
