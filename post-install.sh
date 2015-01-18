@@ -19,7 +19,7 @@ apt-get install -y \
     sloccount  signing-party devscripts python-stdeb dh-make dpkg-dev-el debian-el \
     golang-go gocode-auto-complete-el golang-mode \
     eog file-roller reaver wifite aircrack-ng \
-    mpd ncmpcpp weather-util htop blueman \
+    mpd ncmpcpp weather-util htop blueman pulseaudio openjdk-7-jdk \
     cvs subversion mercurial automake autoconf emacs24-el
 
 adduser matthieu sudo
