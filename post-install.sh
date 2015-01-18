@@ -20,6 +20,7 @@ apt-get install -y \
     golang-go gocode-auto-complete-el golang-mode \
     eog file-roller reaver wifite aircrack-ng \
     mpd ncmpcpp weather-util htop blueman pulseaudio openjdk-7-jdk \
+    mutt-patched sl ntp
     cvs subversion mercurial automake autoconf emacs24-el
 
 adduser matthieu sudo
@@ -42,3 +43,7 @@ echo "source ~matthieu/.bashrc" >> ~root/.bashrc
 
 # disable beep sound:
 echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf
+<<<<<<< HEAD
+=======
+echo "blacklist snd_pcsp" > /etc/modprobe.d/nobeep.conf
+>>>>>>> 3de2a67408f6ec3979322d7b3f3082a4b780a6a4
