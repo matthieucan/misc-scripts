@@ -2,6 +2,8 @@
 
 # run as root
 
+apt-get update
+
 apt-get install -y \
     xserver-xorg xinit console-data keyboard-configuration alsa-utils \
     sudo thunar lxappearance volti scrot wicd-gtk slim \
