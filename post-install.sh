@@ -39,7 +39,7 @@ echo "source ~matthieu/.bashrc" >> ~root/.bashrc
 # cd ~/.caff && for i in $(ls $HOME/.gnupg); do echo $i && ln -s $HOME/.gnupg/$i; done
 
 # in dotfiles/awesome
-# sudo ln -s run_once /usr/bin/run_once
+# sudo cp run_once /usr/bin/run_once
 
 # disable beep sound:
 echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf
