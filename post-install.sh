@@ -3,6 +3,7 @@
 # run as root
 
 apt-get update
+apt-get upgrade
 
 apt-get install -y \
     xserver-xorg xinit console-data keyboard-configuration alsa-utils \
