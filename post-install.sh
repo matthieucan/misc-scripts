@@ -22,7 +22,7 @@ apt-get install -y \
     eog file-roller reaver wifite aircrack-ng \
     mpd ncmpcpp weather-util htop blueman pulseaudio openjdk-7-jdk \
     mutt-patched sl ntp
-    cvs subversion mercurial automake autoconf emacs24-el
+    cvs subversion mercurial automake autoconf emacs24-el gtk-theme-switch
 
 adduser matthieu sudo
 chmod +w /etc/sudoers
