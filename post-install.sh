@@ -25,9 +25,7 @@ apt-get install -y \
     cvs subversion mercurial automake autoconf emacs24-el gtk-theme-switch
 
 adduser matthieu sudo
-chmod +w /etc/sudoers
-echo "%sudo   ALL=(ALL:ALL) NOPASSWD:ALL" >> /etc/sudoers
-chmod -w /etc/sudoers
+echo "%sudo   ALL=(ALL:ALL) NOPASSWD:ALL" >> /etc/sudoers.d/local-sudoers
 
 echo "source ~matthieu/.bashrc" >> ~root/.bashrc
 
