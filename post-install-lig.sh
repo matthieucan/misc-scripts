@@ -2,4 +2,5 @@
 
 apt-get install maven eclipse \
         system-config-printer xsane \
-        zotero r-recommended ess
+        zotero-standalone r-recommended ess
+        cmake metis

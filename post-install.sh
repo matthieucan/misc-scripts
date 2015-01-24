@@ -3,6 +3,7 @@
 # run as root
 
 apt-get update
+apt-get upgrade
 
 apt-get install -y \
     xserver-xorg xinit console-data keyboard-configuration alsa-utils \
@@ -21,12 +22,10 @@ apt-get install -y \
     eog file-roller reaver wifite aircrack-ng \
     mpd ncmpcpp weather-util htop blueman pulseaudio openjdk-7-jdk \
     mutt-patched sl ntp libreoffice
-    cvs subversion mercurial automake autoconf emacs24-el
+    cvs subversion mercurial automake autoconf emacs24-el gtk-theme-switch
 
 adduser matthieu sudo
-chmod +w /etc/sudoers
-echo "%sudo   ALL=(ALL:ALL) NOPASSWD:ALL" >> /etc/sudoers
-chmod -w /etc/sudoers
+echo "%sudo   ALL=(ALL:ALL) NOPASSWD:ALL" >> /etc/sudoers.d/local-sudoers
 
 echo "source ~matthieu/.bashrc" >> ~root/.bashrc
 
