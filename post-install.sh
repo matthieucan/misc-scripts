@@ -21,7 +21,7 @@ apt-get install -y \
     golang-go gocode-auto-complete-el golang-mode \
     eog file-roller reaver wifite aircrack-ng \
     mpd ncmpcpp weather-util htop blueman pulseaudio openjdk-7-jdk \
-    mutt-patched sl ntp libreoffice
+    mutt-patched sl ntp libreoffice jekyll \
     cvs subversion mercurial automake autoconf emacs24-el gtk-theme-switch
 
 adduser matthieu sudo
