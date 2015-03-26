@@ -21,8 +21,11 @@ apt-get install -y \
     golang-go gocode-auto-complete-el golang-mode \
     eog file-roller reaver wifite aircrack-ng \
     mpd ncmpcpp weather-util htop blueman pulseaudio openjdk-7-jdk \
-    mutt-patched sl ntp libreoffice jekyll \
+    mutt-patched sl ntp libreoffice \
     cvs subversion mercurial automake autoconf emacs24-el gtk-theme-switch
+
+gem install jekyll
+gem install jekyll-scholar
 
 adduser matthieu sudo
 echo "%sudo   ALL=(ALL:ALL) NOPASSWD:ALL" >> /etc/sudoers.d/local-sudoers
