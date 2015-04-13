@@ -22,7 +22,8 @@ apt-get install -y \
     eog file-roller reaver wifite aircrack-ng \
     mpd ncmpcpp weather-util htop blueman pulseaudio openjdk-7-jdk \
     mutt-patched sl ntp libreoffice jekyll \
-    cvs subversion mercurial automake autoconf emacs24-el gtk-theme-switch
+    cvs subversion mercurial automake autoconf emacs24-el gtk-theme-switch \
+    zsh
 
 adduser matthieu sudo
 echo "%sudo   ALL=(ALL:ALL) NOPASSWD:ALL" >> /etc/sudoers.d/local-sudoers
@@ -39,6 +40,13 @@ echo "source ~matthieu/.bashrc" >> ~root/.bashrc
 
 # in dotfiles/awesome
 # sudo cp run_once /usr/bin/run_once
+
+# zsh/prezto config
+# git clone --recursive https://github.com/matthieucan/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+# cd ~/.zprezto
+# git checkout matthieucan
+# do https://github.com/sorin-ionescu/prezto
+# chsh -s /bin/zsh
 
 # disable beep sound:
 echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf
