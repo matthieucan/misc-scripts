@@ -12,8 +12,8 @@ apt-get install -y \
     xscreensaver-data-extra xscreensaver-gl-extra \
     python-dev python-pip python-virtualenv ipython python-mode \
     python-nose python3-venv \
-    emacs lua-mode scala-mode-el git gitk \
-    pidgin pidgin-otr pidgin-skype pidgin-twitter \
+    emacs lua-mode scala-mode-el git gitk yaml-mode \
+    pidgin pidgin-otr pidgin-skype pidgin-twitter gimp \
     evince transmission vlc terminator chromium iceweasel flashplugin-nonfree \
     colordiff coccinelle docker.io \
     texlive latex-make \
@@ -21,9 +21,12 @@ apt-get install -y \
     golang-go gocode-auto-complete-el golang-mode \
     eog file-roller reaver wifite aircrack-ng \
     mpd ncmpcpp weather-util htop blueman pulseaudio openjdk-7-jdk \
-    mutt-patched sl ntp libreoffice jekyll \
+    mutt-patched sl ntp libreoffice \
     cvs subversion mercurial automake autoconf emacs24-el gtk-theme-switch \
     zsh
+
+gem install jekyll
+gem install jekyll-scholar
 
 adduser matthieu sudo
 echo "%sudo   ALL=(ALL:ALL) NOPASSWD:ALL" >> /etc/sudoers.d/local-sudoers
