@@ -23,7 +23,7 @@ apt-get install -y \
     mpd ncmpcpp weather-util htop blueman pulseaudio openjdk-7-jdk \
     mutt-patched sl ntp libreoffice \
     cvs subversion mercurial automake autoconf emacs24-el gtk-theme-switch \
-    zsh ranger
+    zsh ranger tmux
 
 gem install jekyll
 gem install jekyll-scholar
