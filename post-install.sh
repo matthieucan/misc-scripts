@@ -11,7 +11,7 @@ apt-get install -y \
     awesome awesome-extra xscreensaver xscreensaver-data \
     xscreensaver-data-extra xscreensaver-gl-extra \
     python-dev python-pip python-virtualenv ipython python-mode \
-    python-nose python3-venv \
+    python-nose python3-venv xinput \
     emacs lua-mode scala-mode-el git gitk yaml-mode \
     pidgin pidgin-otr pidgin-skype pidgin-twitter gimp \
     evince transmission vlc terminator chromium iceweasel flashplugin-nonfree \
@@ -55,3 +55,9 @@ echo "source ~matthieu/.bashrc" >> ~root/.bashrc
 echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf
 echo "blacklist snd_pcsp" >> /etc/modprobe.d/nobeep.conf
 
+# trackpad hacks
+# click
+echo -n 1 > /sys/devices/platform/i8042/serio1/serio2/press_to_select
+# scroll
+xinput set-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation" 1
+xinput set-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation Button" 2
