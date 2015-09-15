@@ -38,24 +38,29 @@ echo "source ~matthieu/.bashrc" >> ~root/.bashrc
 
 # git config --global user.name foo
 # git config --global user.email bar
-# cat .gitconfig >> ~/.gitconfig
-# cd ~/.caff && for i in $(ls $HOME/.gnupg); do echo $i && ln -s $HOME/.gnupg/$i; done
 
-# in dotfiles/awesome
-# sudo cp run_once /usr/bin/run_once
+# dotfiles
+# git clone --recursive git@github.com:matthieucan/dotfiles.git
+# cd dotfiles
+# ./lnmaker .
+# cd awesome && sudo cp run_once /usr/bin/run_once
 
-# zsh/prezto config
-# git clone --recursive https://github.com/matthieucan/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
-# cd ~/.zprezto
-# git checkout matthieucan
-# do https://github.com/sorin-ionescu/prezto
+# zsh
+# cd prezto && git checkout matthieucan
+# follow https://github.com/sorin-ionescu/prezto
 # chsh -s /bin/zsh
+
+
+# cat .gitconfig >> ~/.gitconfig
+
+# cd ~/.caff && for i in $(ls $HOME/.gnupg); do echo $i && ln -s $HOME/.gnupg/$i; done
 
 # disable beep sound:
 echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf
 echo "blacklist snd_pcsp" >> /etc/modprobe.d/nobeep.conf
 
-# trackpad hacks
+
+# thinkpad trackpad hacks
 # click
 echo -n 1 > /sys/devices/platform/i8042/serio1/serio2/press_to_select
 # scroll
