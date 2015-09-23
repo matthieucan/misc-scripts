@@ -26,8 +26,15 @@ apt-get install -y \
     zsh ranger tmux tree mosh owncloud-client offlineimap macchanger parcellite \
     npm
 
+# gem
 gem install jekyll
 gem install jekyll-scholar
+
+# node
+cd /usr/bin/ && ln -s nodejs node
+npm install -g cordova
+npm install -g bower
+npm install -g gulp
 
 adduser matthieu sudo
 echo "%sudo   ALL=(ALL:ALL) NOPASSWD:ALL" >> /etc/sudoers.d/local-sudoers
@@ -67,3 +74,6 @@ echo -n 1 > /sys/devices/platform/i8042/serio1/serio2/press_to_select
 # scroll
 xinput set-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation" 1
 xinput set-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation Button" 2
+
+# keyboard
+# dpkg-reconfigure keyboard-configuration
