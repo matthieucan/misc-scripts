@@ -12,7 +12,7 @@ apt-get install -y \
     xscreensaver-data-extra xscreensaver-gl-extra \
     python-dev python-pip python-virtualenv ipython python-mode python-icalendar \
     python-nose python3-venv xinput ruby-dev \
-    emacs lua-mode scala-mode-el git gitk yaml-mode gnuplot \
+    emacs lua-mode scala-mode-el git gitk yaml-mode gnuplot gnuplot-mode emacs-goodies-el\
     pidgin pidgin-otr pidgin-skype pidgin-twitter gimp \
     evince transmission vlc terminator chromium iceweasel flashplugin-nonfree \
     colordiff coccinelle docker.io \
