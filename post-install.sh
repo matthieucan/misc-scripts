@@ -12,7 +12,7 @@ apt-get install -y \
     xscreensaver-data-extra xscreensaver-gl-extra \
     python-dev python-pip python-virtualenv ipython python-mode python-icalendar \
     python-nose python3-venv xinput ruby-dev gpick \
-    emacs lua-mode scala-mode-el git gitk yaml-mode gnuplot gnuplot-mode emacs-goodies-el\
+    emacs lua-mode scala-mode-el git gitk yaml-mode gnuplot gnuplot-mode emacs-goodies-el auto-complete-el\
     pidgin pidgin-otr pidgin-skype pidgin-twitter gimp \
     evince transmission vlc terminator chromium iceweasel flashplugin-nonfree \
     colordiff coccinelle docker.io \
@@ -21,7 +21,7 @@ apt-get install -y \
     golang-go gocode-auto-complete-el golang-mode \
     eog file-roller reaver wifite aircrack-ng \
     mpd ncmpcpp weather-util htop blueman pulseaudio openjdk-7-jdk \
-    mutt-patched offlineimap sl ntp libreoffice \
+    mutt-patched notmuch notmuch-mutt offlineimap sl ntp libreoffice \
     cvs subversion mercurial automake autoconf emacs24-el gtk-theme-switch \
     zsh ranger tmux tree mosh owncloud-client offlineimap macchanger parcellite \
     npm zip
@@ -77,3 +77,9 @@ xinput set-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation Button" 2
 
 # keyboard
 # dpkg-reconfigure keyboard-configuration
+
+
+# crontab, update email
+# * * * * * offlineimap -u Noninteractive.Quiet
+
+# create ~/signature.txt
