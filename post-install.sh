@@ -10,7 +10,7 @@ apt-get install -y \
     sudo thunar lxappearance volti scrot wicd-gtk slim \
     awesome awesome-extra xscreensaver xscreensaver-data \
     xscreensaver-data-extra xscreensaver-gl-extra \
-    python-dev python-pip python-virtualenv ipython python-mode python-icalendar \
+    python-dev python-pip python-virtualenv ipython python-mode python-icalendar python-pygments \
     python-nose python3-venv xinput ruby-dev gpick \
     emacs lua-mode scala-mode-el git gitk tig yaml-mode gnuplot gnuplot-mode emacs-goodies-el auto-complete-el\
     pidgin pidgin-otr pidgin-skype pidgin-twitter gimp \
