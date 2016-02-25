@@ -1,5 +1,4 @@
 #!/bin/bash
-1;2802;0c
 # run as root
 
 apt-get update
@@ -23,7 +22,7 @@ apt-get install -y \
     mpd ncmpcpp weather-util htop blueman pulseaudio openjdk-7-jdk \
     mutt-patched notmuch notmuch-mutt offlineimap sl ntp libreoffice \
     cvs subversion mercurial automake autoconf emacs24-el gtk-theme-switch \
-    zsh ranger tmux tree mosh owncloud-client offlineimap macchanger parcellite \
+    zsh ranger tmux tree mosh owncloud-client offlineimap macchanger \
     npm zip apt-transport-https lftp php
 
 # gem
