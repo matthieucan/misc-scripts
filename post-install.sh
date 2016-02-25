@@ -1,5 +1,5 @@
 #!/bin/bash
-
+1;2802;0c
 # run as root
 
 apt-get update
@@ -15,7 +15,7 @@ apt-get install -y \
     emacs lua-mode scala-mode-el git gitk tig yaml-mode gnuplot gnuplot-mode emacs-goodies-el auto-complete-el\
     pidgin pidgin-otr pidgin-skype pidgin-twitter gimp \
     evince transmission vlc terminator chromium iceweasel flashplugin-nonfree \
-    colordiff coccinelle docker.io \
+    colordiff coccinelle docker.io pandoc \
     texlive latex-make parcimonie \
     sloccount  signing-party devscripts python-stdeb dh-make dpkg-dev-el debian-el \
     golang-go gocode-auto-complete-el golang-mode \
