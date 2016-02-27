@@ -23,7 +23,7 @@ apt-get install -y \
     mutt-patched notmuch notmuch-mutt offlineimap sl ntp libreoffice \
     cvs subversion mercurial automake autoconf emacs24-el gtk-theme-switch \
     zsh ranger tmux tree mosh owncloud-client offlineimap macchanger \
-    npm zip apt-transport-https lftp php
+    npm zip apt-transport-https lftp php fonts-linuxlibertine
 
 # gem
 gem install jekyll
