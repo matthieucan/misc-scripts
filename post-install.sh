@@ -15,7 +15,7 @@ apt-get install -y \
     pidgin pidgin-otr pidgin-skype pidgin-twitter gimp \
     evince transmission vlc terminator chromium iceweasel flashplugin-nonfree \
     colordiff coccinelle docker.io pandoc \
-    texlive latex-make texlive-xetex parcimonie \
+    texlive latex-make texlive-xetex \
     sloccount  signing-party devscripts python-stdeb dh-make dpkg-dev-el debian-el \
     golang-go gocode-auto-complete-el golang-mode \
     eog file-roller reaver wifite aircrack-ng \
