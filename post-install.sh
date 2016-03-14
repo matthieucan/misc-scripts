@@ -15,7 +15,7 @@ apt-get install -y \
     pidgin pidgin-otr pidgin-skype pidgin-twitter gimp \
     evince transmission vlc terminator chromium iceweasel flashplugin-nonfree \
     colordiff coccinelle docker.io pandoc \
-    texlive latex-make texlive-xetex \
+    texlive latex-make texlive-xetex fonts-linuxlibertine parcimonie \
     sloccount  signing-party devscripts python-stdeb dh-make dpkg-dev-el debian-el \
     golang-go gocode-auto-complete-el golang-mode \
     eog file-roller reaver wifite aircrack-ng \
@@ -82,3 +82,6 @@ xinput set-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation Button" 2
 # * * * * * offlineimap -u Noninteractive.Quiet
 
 # create ~/signature.txt
+
+# configure keyboard
+# /usr/share/X11/xkb/symbols/pc
