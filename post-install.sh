@@ -15,7 +15,7 @@ apt-get install -y \
     pidgin pidgin-otr pidgin-skype pidgin-twitter gimp \
     evince transmission vlc terminator chromium iceweasel flashplugin-nonfree \
     colordiff coccinelle docker.io pandoc \
-    texlive latex-make texlive-xetex fonts-linuxlibertine parcimonie \
+    texlive latex-make texlive-xetex \
     sloccount  signing-party devscripts python-stdeb dh-make dpkg-dev-el debian-el \
     golang-go gocode-auto-complete-el golang-mode \
     eog file-roller reaver wifite aircrack-ng \
@@ -23,7 +23,7 @@ apt-get install -y \
     mutt-patched notmuch notmuch-mutt offlineimap sl ntp libreoffice \
     cvs subversion mercurial automake autoconf emacs24-el gtk-theme-switch \
     zsh ranger tmux tree mosh owncloud-client offlineimap macchanger \
-    npm zip apt-transport-https lftp php fonts-linuxlibertine
+    npm zip apt-transport-https lftp php fonts-linuxlibertine cm-super-x11 
 
 # gem
 gem install jekyll
