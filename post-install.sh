@@ -23,7 +23,7 @@ apt-get install -y \
     mutt-patched notmuch notmuch-mutt offlineimap sl ntp libreoffice \
     cvs subversion mercurial automake autoconf emacs24-el gtk-theme-switch \
     zsh ranger tmux tree mosh owncloud-client offlineimap macchanger \
-    npm zip apt-transport-https lftp php fonts-linuxlibertine scala sbt
+    npm zip apt-transport-https lftp php fonts-linuxlibertine cm-super-x11  scala sbt
 
 # gem
 gem install jekyll
@@ -82,3 +82,6 @@ xinput set-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation Button" 2
 # * * * * * offlineimap -u Noninteractive.Quiet
 
 # create ~/signature.txt
+
+# configure keyboard
+# /usr/share/X11/xkb/symbols/pc
