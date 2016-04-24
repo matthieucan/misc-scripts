@@ -5,7 +5,7 @@ apt-get update
 apt-get upgrade
 
 apt-get install -y \
-    xserver-xorg xinit console-data keyboard-configuration alsa-utils \
+    xserver-xorg xinit console-data keyboard-configuration alsa-utils mc \
     sudo thunar lxappearance volti scrot wicd-gtk slim \
     awesome awesome-extra xscreensaver xscreensaver-data \
     xscreensaver-data-extra xscreensaver-gl-extra \
